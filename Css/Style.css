@@ -9,6 +9,8 @@ body{
 }
 .logo p{
     font-size: 20px;
+    display: flex;
+    margin-left:-197px;
 }
 .nav{
     display: flex;
@@ -55,4 +57,19 @@ body{
     margin: 0 auto;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.btn2 a{
+    text-decoration: none;
+    background: #ee8e40;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.btn2 a:hover{
+    background:rgb(36, 219, 19);
+    color: rgb(65, 1, 1);
+    border-radius: 10px;
+    transition: .5s;
 }

@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 90%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo p{
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -100px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(182, 154, 30);
+}
+.menu ul li a:hover{
+    background-color: rgb(144, 158, 170);
+    color:black;
+    border-radius: 20px;
+    transition: 0.7s;
+   
+}
+
+.btn1 a{
+    text-decoration: none;
+    display: flex;
+    background-color:rgb(219, 178, 43);
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    
+}
+.btn1{
+    padding: 7px 0px 0px 50px;
+    text-align: center;
+    width: 90px;
+    
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+div.text{
+    padding: 0px 0px 0px 180px;
+    margin: 0;
+    position: relative;
+    float: left;
+    margin-top: 370px;
+    font-size: 20px;
+
+}
+
+img{
+    position: absolute;
+    float: left;
+    width: 800px;
+    height: 800px;
+    margin-left: 417px;
+    margin-top: 100px
+}
